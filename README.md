@@ -8,35 +8,37 @@ RideWizard is a Spring Boot application that serves as a backend for a ride-shar
 - Manage rides (add, retrieve, delete)
 
 ## Project Structure
+```css
 ridewizard
 ├── src
-│ ├── main
-│ │ ├── java
-│ │ │ └── com
-│ │ │ └── example
-│ │ │ └── ridewizard
-│ │ │ ├── Application.java
-│ │ │ ├── controller
-│ │ │ │ ├── DriverController.java
-│ │ │ │ └── RideController.java
-│ │ │ ├── model
-│ │ │ │ ├── Driver.java
-│ │ │ │ └── Ride.java
-│ │ │ ├── repository
-│ │ │ │ ├── DriverRepository.java
-│ │ │ │ └── RideRepository.java
-│ │ │ └── service
-│ │ │ ├── DriverService.java
-│ │ │ └── RideService.java
-│ │ └── resources
-│ │ └── application.properties
-│ └── test
-│ └── java
-│ └── com
-│ └── example
-│ └── ridewizard
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── ridewizard
+│   │   │               ├── Application.java
+│   │   │               ├── controller
+│   │   │               │   ├── DriverController.java
+│   │   │               │   └── RideController.java
+│   │   │               ├── model
+│   │   │               │   ├── Driver.java
+│   │   │               │   └── Ride.java
+│   │   │               ├── repository
+│   │   │               │   ├── DriverRepository.java
+│   │   │               │   └── RideRepository.java
+│   │   │               └── service
+│   │   │                   ├── DriverService.java
+│   │   │                   └── RideService.java
+│   │   └── resources
+│   │       └── application.properties
+│   └── test
+│       └── java
+│           └── com
+│               └── example
+│                   └── ridewizard
 └── pom.xml
 └── README.md
+```
 
 ## Getting Started
 
